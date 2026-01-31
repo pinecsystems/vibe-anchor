@@ -1,0 +1,11 @@
+[project]
+name = "vibe-anchor"
+version = "0.1.0"
+description = "A local-first project memory and intent anchor for agentic coding"
+authors = [{ name = "Pinec" }]
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = ["typer", "pyyaml"]
+
+[project.scripts]
+vibe = "vibe.cli:app"
