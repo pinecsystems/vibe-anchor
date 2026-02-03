@@ -1,10 +1,10 @@
-# vibe-anchor
+# Vibe Anchor
 
 A local-first project memory and intent anchor for agentic coding.
 
 ## What is this?
 
-When coding with AI agents, context drifts.
+When coding with AI agents, context drifts.  
 Decisions get forgotten. Constraints get ignored. The “vibe” of the project slowly erodes.
 
 **Vibe Anchor** is a lightweight, local-first tool that preserves project intent, decisions, and constraints so AI-assisted and agentic workflows stay aligned over time.
@@ -35,9 +35,10 @@ No cloud. No accounts. Just local project memory.
 
 ---
 
-## Quick Start (planned)
+## Setup
+
+1. **Clone the repository:**
 
 ```bash
-vibe init
-vibe note "Keep the system lightweight and local-first"
-vibe inject
+git clone https://github.com/pinecsystems/vibe-anchor.git
+cd vibe-anchor
